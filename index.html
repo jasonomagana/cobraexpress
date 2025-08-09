@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Cobra Express Installations</title>
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="Main Navigation">
+        <div class="navbar__container container">
+            <div class="navbar__image">
+                <a href="/" aria-label="Logo Home Link">
+                <img src="images/logo-transparent.png" alt="Cobra Express Installations">
+                </a>
+            </div>
+            <div class="navbar__menu">
+                <ul class="navbar__menu-list">
+                    <li class="navbar__menu-item">
+                        <a href="/" class="navbar__menu-link">Home</a>
+                    </li>
+                    <li class="navbar__menu-item">
+                        <a href="#services" class="navbar__menu-link">Services</a>
+                    </li>
+                    <li class="navbar__menu-item">
+                        <a href="#gallery" class="navbar__menu-link">Gallery</a>
+                    </li>
+                    <li class="navbar__menu-item">
+                        <a href="#contact" class="navbar__menu-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="navbar__mobile-menu">
+                <div class="navbar__mobile-menu-toggle" role="button" aria-expanded="false" aria-controls="mobile-menu-items"
+                aria-label="Open Mobile Menu" tabindex="0">
+                <i class="fas fa-bars fa-2x"></i>
+                </div>
+                <div class="navbar__mobile-menu-items" id="mobile-menu-items">
+                    <ul class="navbar__mobile-menu-list">
+                        <li class="navbar__mobile-menu-item">
+                            <a href="/" class="navbar__mobile-menu-link">Home</a>
+                        </li>
+                        <li class="navbar__mobile-menu-item">
+                            <a href="#services" class="navbar__mobile-menu-link">Services</a>
+                        </li>
+                        <li class="navbar__mobile-menu-item">
+                            <a href="#gallery" class="navbar__mobile-menu-link">Gallery</a>
+                        </li>
+                        <li class="navbar__mobile-menu-item">
+                            <a href="#contact" class="navbar__mobile-menu-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__image">
+                <img src="images/logo-transparent.png" alt="Cobra Express Installations">
+            </div>
+            <div class="header__link">
+            <h1 class="header__heading">Delivering Excellence Through Precision, Protection, and Placement.</h1>
+            <a href="#contact" class="header__contact">Contact Us Today!</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="services" id="services">
+        <div class="services__container container">
+            <div class="services__heading">
+                <h2 class="services__title">White Glove Moving & Installation Services</h2>
+                <p class="services__description">
+                    At our company, we specialize in white glove services that go far beyond the offerings of standard moving companies. 
+                    While others may stop at your doorstep, we take it a step further by providing careful placement and 
+                    expert installation of your furniture and valuables inside your home or business. 
+                    Every item is transported using the most secure and professional methods available to ensure maximum protection.
+                    Our services include premium blanket wrapping, 
+                    secure and climate-controlled storage solutions, and 
+                    professional art installation handled by trained specialists. 
+                    Whether you're relocating across town or across state lines, 
+                    we bring the same level of precision, care, and professionalism to every 
+                    job—serving clients both locally and nationwide. Let us handle your most valuable 
+                    possessions with the attention to detail and elevated service you deserve.
+                </p>
+                <p class="services__icons">
+                    <i class="fa-solid fa-truck fa-3x"></i>
+                    <i class="fa-solid fa-globe fa-3x"></i>
+                    <i class="fa-solid fa-house fa-3x"></i>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <div class="gallery__container container">
+            <div class="gallery__heading">
+                <h2 class="gallery__title">Handled With Pride</h2>
+            </div>
+            <div class="gallery__images">
+                <img src="images/image-1.jpg" alt="Cobra Express Services">
+                <img src="images/image-2.jpg" alt="Cobra Express Services">
+                <img src="images/image-3.jpg" alt="Cobra Express Services">
+                <img src="images/image-4.jpg" alt="Cobra Express Services">
+                <img src="images/image-5.jpg" alt="Cobra Express Services">
+                <img src="images/image-6.jpg" alt="Cobra Express Services">
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact__container container">
+            <div class="contact__heading">
+                <h2 class="contact__title">Contact Us For An Inquiry!</h2>
+                <p class="contact__description">
+                    Looking for more than just a standard move? 
+                    We specialize in white glove services that go beyond the basics—carefully placing and installing your 
+                    furniture, using secure transport methods, and handling every item with expert precision. 
+                    From art installation to professional storage and premium blanket wrapping, 
+                    we ensure every detail is handled with care. Reach out today and let us take the stress out of your next move.
+                </p>
+            </div>
+            <div class="contact__form">
+                <form>
+                    <div class="contact__form-label">
+                        <label for="name" class="visually-hidden">Name</label>
+                        <input type="text" name="name" id="name" required placeholder="Enter Your Full Name">
+                    </div>
+                    <div class="contact__form-label">
+                        <label for="email" class="visually-hidden">Email</label>
+                        <input type="email" name="email" id="email" required placeholder="Enter Your Email">
+                    </div>
+                    <div class="contact__form-label">
+                        <label for="message" class="visually-hidden">Message</label>
+                        <textarea name="message" id="Message" required placeholder="Message"></textarea>
+                    </div>
+                    <div class="contact__button">
+                        <button type="submit" class="btn">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__content">
+                <div class="footer__image">
+                    <img src="images/logo-transparent.png" alt="Cobra Express Installations">
+                </div>
+                <div class="footer__heading">
+                    <h3 class="footer__title">Contact Us Today!</h3>
+                    <p class="footer__description">323-678-3032</p>
+                    <p class="footer__description">cobrawhitegloveservices@gmail.com</p>
+                    <p class="footer__description">Los Angeles, CA 90255 USA</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
